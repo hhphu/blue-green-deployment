@@ -8,7 +8,7 @@ Your task is to set up a CI/CD pipeline using GitHub Actions, which will automat
 
 ### Create a GitHub Actions Workflow
 
-1. Under `/lesson-4-exercise/starter`, create a new YAML file (e.g., `blue_green.yaml`). This file will define your GitHub Actions workflow.
+
 1. The workflow should be triggered whenever a push is made to the main branch.
 1. It should set up the environment for Terraform, install the required CLI, and apply the Terraform configurations.
 1. Your workflow should also handle the logic of switching traffic between the Blue and Green environments according to the Blue-Green deployment strategy. (Hint: use peudo-code and if statements here, to think through the logic.)
